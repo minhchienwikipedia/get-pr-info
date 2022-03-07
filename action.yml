@@ -1,0 +1,23 @@
+name: 'get-pr-info-action'
+description: 'A GitHub Action that get pull request info (branch, commits, latest commit message) in current pull-request'
+branding:
+  icon: "git-pull-request"
+  color: "purple"
+inputs:
+  token:
+    description: 'A token with access to your repository scoped in as a secret'
+    required: true
+  filter_out_pattern:
+    description: 'A regex pattern to check if a commit should be filtered out, empty for disable'
+    required: false
+    default: ""
+  filter_out_flags:
+    description: 'Regex flags of input filter_out_pattern'
+    required: false
+    default: ''
+outputs:
+  commits:
+    description: 'Get branch name, commits, the latest commit message'
+runs:
+  using: 'node12'
+  main: 'index.js'
