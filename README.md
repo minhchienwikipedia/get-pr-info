@@ -1,6 +1,6 @@
 # get-pr-info
 
-A GitHub Action that get commits in current pull-request
+A GitHub Action that help you get commits, branch name, latest commit message in current pull-request
 
 ## Usage
 Add .github/workflows/action.yml with the following:
