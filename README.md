@@ -1,4 +1,4 @@
-# get-pr-info-action
+# get-pr-info
 
 A GitHub Action that get commits in current pull-request
 
@@ -15,7 +15,7 @@ jobs:
     name: Commits Check
     steps:
     - name: Get PR Info
-      uses: minhchienwikipedia/get-pr-info-action@master
+      uses: minhchienwikipedia/get-pr-info@master
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 ```

@@ -1,4 +1,4 @@
-name: 'get-pr-info-action'
+name: 'get-pr-info'
 description: 'A GitHub Action that get pull request info (branch, commits, latest commit message) in current pull-request'
 branding:
   icon: "git-pull-request"

@@ -1,5 +1,5 @@
 {
-  "name": "get-pr-info-action",
+  "name": "get-pr-info",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
