@@ -41,7 +41,7 @@ async function main() {
       // Get latest commit message
       core.exportVariable(
         "GIT_LATEST_COMMIT_MESSAGE",
-        commits[commits.length - 1].commit.message
+        JSON.stringify(commits[commits.length - 1].commit.message)
       );
     }
     // Get branch name
