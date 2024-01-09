@@ -19,5 +19,5 @@ outputs:
   commits:
     description: 'Get branch name, commits, the latest commit message'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
